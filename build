@@ -1,0 +1,2 @@
+docker build -t richiemay/discuz:latest .
+docker tag richiemay/discuz:latest richiemay/discuz:$(cat version)
